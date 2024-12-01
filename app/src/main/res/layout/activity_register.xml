@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/register_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_marginBottom="48dp"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"/>
+
+    <LinearLayout
+            android:padding="16dp"
+            android:background="@drawable/rounded_corners"
+            android:elevation="12dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="Tên đăng nhập"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="#000000"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_Username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@android:color/black"
+                app:boxStrokeWidth="1dp"
+                android:layout_marginBottom="19dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:hint="Nhập vào số điện thoại"
+                    android:importantForAccessibility="yes"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+                android:text="Mật khẩu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textColor="#000000"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_Pass"
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/defaultHintColor"
+                app:passwordToggleEnabled="true">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:autofillHints="password"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:importantForAccessibility="yes"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+                android:text="Nhập lại mật khẩu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textColor="#000000"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/til_ConfirmPass"
+                android:layout_width="264dp"
+                android:layout_height="wrap_content"
+                app:boxStrokeColor="@color/defaultHintColor"
+                app:passwordToggleEnabled="true">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:autofillHints="password"
+                    android:hint="@string/Confirmpassword"
+                    android:inputType="textPassword"
+                    android:importantForAccessibility="yes"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+                android:text="Đăng ký"
+                android:layout_marginTop="24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_register"/>
+    </LinearLayout>
+</LinearLayout>

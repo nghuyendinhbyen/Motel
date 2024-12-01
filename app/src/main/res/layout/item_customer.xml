@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:padding="4dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/img_cus"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/user"
+            android:scaleType="fitXY"></ImageView>
+
+    <LinearLayout
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tv_customerId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="001"/>
+
+        <TextView
+                android:id="@+id/tv_customerName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nguyễn Văn A"/>
+
+    </LinearLayout>
+
+</LinearLayout>

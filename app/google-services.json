@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "151886464354",
+    "project_id": "my-application-d704e",
+    "storage_bucket": "my-application-d704e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151886464354:android:5cba4826fac921c09d583b",
+        "android_client_info": {
+          "package_name": "com.example.Motel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyWvzOvwr22LvjcqVFYaOqXwuAauyrL4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

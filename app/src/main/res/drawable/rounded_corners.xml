@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FBE3B9"/> <!-- Màu nền cho LinearLayout -->
+    <corners android:radius="16dp"/> <!-- Bo tròn 4 góc, tùy chỉnh giá trị dp theo ý muốn -->
+    <padding
+            android:left="8dp"
+            android:top="8dp"
+            android:right="8dp"
+            android:bottom="8dp"/>
+</shape>

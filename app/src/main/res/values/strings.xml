@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Motel</string>
+    <string name="nav_header_subtitle">nghuyendinhbyen2003@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Search</string>
+
+    <string name="menu_home">Trang Chủ</string>
+    <string name="menu_gallery">Phòng</string>
+    <string name="menu_slideshow">Khách hàng</string>
+    <string name="menu_pay">Hoá Đơn</string>
+    <string name="password">Mật khẩu</string>
+    <string name="Confirmpassword">Nhập Lại Mật khẩu</string>
+</resources>
